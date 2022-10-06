@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-05-Casting_Type_cast_en_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-00-Polimorfismo", "05-00-Polimorfismo\05-00-Polimorfismo.csproj", "{209ED13E-6284-4010-BE9A-EB571A67A0CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-01-Polimorfismo_Interfase", "05-01-Polimorfismo_Interfase\05-01-Polimorfismo_Interfase.csproj", "{DA46D343-865A-45A9-8328-BFD0D7738B57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{209ED13E-6284-4010-BE9A-EB571A67A0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209ED13E-6284-4010-BE9A-EB571A67A0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209ED13E-6284-4010-BE9A-EB571A67A0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
