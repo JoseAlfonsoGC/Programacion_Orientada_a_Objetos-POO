@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-00-Polimorfismo", "05-00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-01-Polimorfismo_Interfase", "05-01-Polimorfismo_Interfase\05-01-Polimorfismo_Interfase.csproj", "{DA46D343-865A-45A9-8328-BFD0D7738B57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-02-IEnumerables_e_IEnumerator_Interfaz", "05-02-IEnumerables_e_IEnumerator_Interfaz\05-02-IEnumerables_e_IEnumerator_Interfaz.csproj", "{02307A4A-6F7C-4A2A-B9A7-F7A3CF0288FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA46D343-865A-45A9-8328-BFD0D7738B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02307A4A-6F7C-4A2A-B9A7-F7A3CF0288FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02307A4A-6F7C-4A2A-B9A7-F7A3CF0288FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02307A4A-6F7C-4A2A-B9A7-F7A3CF0288FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02307A4A-6F7C-4A2A-B9A7-F7A3CF0288FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
