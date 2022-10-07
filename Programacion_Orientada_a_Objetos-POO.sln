@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-02-IEnumerables_e_IEnume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-03-ICloneable_interfaz", "05-03-ICloneable_interfaz\05-03-ICloneable_interfaz.csproj", "{FD651499-75FB-4DBE-A7D1-8F1C689FBEA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-04-IComparable_interfaz", "05-04-IComparable_interfaz\05-04-IComparable_interfaz.csproj", "{B67A1DB9-975F-4291-A108-9B295C6E1ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{FD651499-75FB-4DBE-A7D1-8F1C689FBEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD651499-75FB-4DBE-A7D1-8F1C689FBEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD651499-75FB-4DBE-A7D1-8F1C689FBEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67A1DB9-975F-4291-A108-9B295C6E1ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67A1DB9-975F-4291-A108-9B295C6E1ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67A1DB9-975F-4291-A108-9B295C6E1ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67A1DB9-975F-4291-A108-9B295C6E1ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
