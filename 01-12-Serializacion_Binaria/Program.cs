@@ -13,9 +13,11 @@ namespace _01_12_Serializacion_Binaria
         static void Main(string[] args)
         {
             int opcion = 0;
+            string valor = "";
 
             Console.WriteLine("1) crear y serializar auto, 2) leer auto");
-            opcion = Convert.ToInt32(Console.ReadLine());
+            valor = Console.ReadLine();
+            opcion = Convert.ToInt32(valor);
 
             if (opcion == 1)
             {
@@ -27,7 +29,8 @@ namespace _01_12_Serializacion_Binaria
                 modelo = Console.ReadLine();
 
                 Console.WriteLine("Dame el costo");
-                costo = Convert.ToDouble(Console.ReadLine());
+                valor = Console.ReadLine();
+                costo = Convert.ToDouble(valor);
 
                 CAuto miAuto = new CAuto(modelo, costo);
 
@@ -41,7 +44,7 @@ namespace _01_12_Serializacion_Binaria
                 BinaryFormatter formateador = new BinaryFormatter();
 
                 //se crea el stream
-                Stream miStream = new FileStream("Auto.aut", FileMode.Create, FileAccess.Write, FileShare.None);
+                Stream miStream = new FileStream("Autos.aut", FileMode.Create, FileAccess.Write, FileShare.None);
 
                 //serializamos 
                 formateador.Serialize(miStream, miAuto);
@@ -58,10 +61,10 @@ namespace _01_12_Serializacion_Binaria
                 BinaryFormatter formateador = new BinaryFormatter();
 
                 //creamos el stream
-                Stream miStream = new FileStream("Auto.aut", FileMode.Create, FileAccess.Write, FileShare.None);
+                Stream miStream = new FileStream("Autos.aut", FileMode.Open, FileAccess.Read, FileShare.None);
 
                 //Deserializamos 
-                CAuto miAuto = (CAuto)formateador.Deserialize(miStream);
+                CAuto miAuto = (CAuto)formateador.Deserialize(miStream);//
 
                 //Creamos el stream
                 miStream.Close();
@@ -70,6 +73,7 @@ namespace _01_12_Serializacion_Binaria
                 Console.WriteLine("El auto deserializado es ");
                 miAuto.MuestraInformacion();
             }
+            Console.ReadKey();
         }
     }
 }
