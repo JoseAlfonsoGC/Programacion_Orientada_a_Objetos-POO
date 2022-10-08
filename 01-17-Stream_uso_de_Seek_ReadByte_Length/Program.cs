@@ -44,7 +44,7 @@ namespace _01_17_Stream_uso_de_Seek_ReadByte_Length
 
             Console.WriteLine("\n-----------------------\n");
 
-            fs.Seek(0, SeekOrigin.Begin);
+            fs.Seek(0, SeekOrigin.Begin);//seek permite seleccionar un byte en la cadena
 
             //leer sin conocer la longitud
             while ((valor = fs.ReadByte()) > 0)
