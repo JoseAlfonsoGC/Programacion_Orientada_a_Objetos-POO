@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-15-Serializacion_con_com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-16-Archivos", "01-16-Archivos\01-16-Archivos.csproj", "{6CA1CF37-98FF-445E-820E-1C3B703C21CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-17-Stream_uso_de_Seek_ReadByte_Length", "01-17-Stream_uso_de_Seek_ReadByte_Length\01-17-Stream_uso_de_Seek_ReadByte_Length.csproj", "{91548FB5-6EE6-4299-ACB9-939B7A7473BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{6CA1CF37-98FF-445E-820E-1C3B703C21CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA1CF37-98FF-445E-820E-1C3B703C21CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA1CF37-98FF-445E-820E-1C3B703C21CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91548FB5-6EE6-4299-ACB9-939B7A7473BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91548FB5-6EE6-4299-ACB9-939B7A7473BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91548FB5-6EE6-4299-ACB9-939B7A7473BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91548FB5-6EE6-4299-ACB9-939B7A7473BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
