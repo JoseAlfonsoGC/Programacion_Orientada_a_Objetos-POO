@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-17-Stream_uso_de_Seek_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-18-Parametros_Nombrados_y_Opcionales", "01-18-Parametros_Nombrados_y_Opcionales\01-18-Parametros_Nombrados_y_Opcionales.csproj", "{5947C606-991E-4710-8DE4-5D9FA8D5AC0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-19-Librerias", "01-19-Librerias\01-19-Librerias.csproj", "{A08B8C3E-843F-4B5D-A998-E7EEA1B78818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aritmetica", "Aritmetica\Aritmetica.csproj", "{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{5947C606-991E-4710-8DE4-5D9FA8D5AC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5947C606-991E-4710-8DE4-5D9FA8D5AC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5947C606-991E-4710-8DE4-5D9FA8D5AC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08B8C3E-843F-4B5D-A998-E7EEA1B78818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08B8C3E-843F-4B5D-A998-E7EEA1B78818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08B8C3E-843F-4B5D-A998-E7EEA1B78818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08B8C3E-843F-4B5D-A998-E7EEA1B78818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
