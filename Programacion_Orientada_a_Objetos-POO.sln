@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-19-Librerias", "01-19-Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aritmetica", "Aritmetica\Aritmetica.csproj", "{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-20-Expresiones_regulares", "01-20-Expresiones_regulares\01-20-Expresiones_regulares.csproj", "{8527E311-4770-4055-B0F9-E8F433F27C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF2E39F8-1897-4F6B-89E7-FBD185B8097F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8527E311-4770-4055-B0F9-E8F433F27C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8527E311-4770-4055-B0F9-E8F433F27C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8527E311-4770-4055-B0F9-E8F433F27C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8527E311-4770-4055-B0F9-E8F433F27C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
